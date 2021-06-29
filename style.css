@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.page .flex{
+    display: flex;
+    padding: 10px 0;
+}
+.page .flex:not(:last-child){
+    border-bottom: 1px solid silver;
+}
+.page .flex:not(:last-child){
+    margin-bottom:10px;
+}
+.page .flex .profil-pic{
+    flex-basis: 200px;
+    height: 200px;
+    margin-right: 20px;
+}
+.page .flex figcaption{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+
+}
+.page .flex .profil-pic img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
